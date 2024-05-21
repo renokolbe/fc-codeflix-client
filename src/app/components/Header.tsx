@@ -1,9 +1,9 @@
 'use client';
 import React from "react";
-import { UserProfile } from "../hooks/UserProfile";
+import { UserProfile } from "./UserProfile";
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
-import { useScroll } from "./useScroll";
+import { useScroll } from "../hooks/useScroll";
 
 export default function Header() {
     const isScrolled = useScroll();
