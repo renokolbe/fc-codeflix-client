@@ -1,7 +1,7 @@
-import React from "react";
+import ForgotPassordForm from "./ForgotPasswordForm";
 
 export default function ForgotPassword() {
     return (
-        <div>Esqueceu sua senha?</div>
+        <ForgotPassordForm />
     )
 }
